@@ -5,3 +5,10 @@ div {
     background-color: #a1b5cb;
     text-align: center;
 }
+
+/*etiqueta nombre*/
+#nombre {
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+}
