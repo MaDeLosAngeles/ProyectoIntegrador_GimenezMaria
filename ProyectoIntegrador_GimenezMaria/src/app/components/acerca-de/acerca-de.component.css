@@ -2,9 +2,33 @@
     padding: 20px;
 }
 div {
-    background-color: #a1b5cb;
+    background-color: #f2d4fc;
     text-align: center;
 }
+
+/*Etilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius:100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 200px;
+    }
+    }
+
+    @media (max-width: 575px){
+        #fotodeperfil{
+            position: absolute;
+            width: 15%;
+            border-radius:100%;
+            box-shadow: 3px 3px 3px grey;
+            left: 45%;
+            top: 200px;
+        }
+        }
+
 
 /*etiqueta nombre*/
 #nombre {
@@ -12,3 +36,9 @@ div {
     margin-top: 40%;
     margin-left: 10px;
 }
+
+/**
+.img {
+    border-radius: 50px;
+}
+**/
