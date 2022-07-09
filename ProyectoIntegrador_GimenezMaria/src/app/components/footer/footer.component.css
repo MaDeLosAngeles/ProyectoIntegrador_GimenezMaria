@@ -2,9 +2,9 @@
     background: #f2d4fc;
 }
 
-.footer{
-    color: #fefefe;
-    font-size: 14px;
+footer{
+    color:#777678;
+    font-size: 15px;
     display:flex;
     flex-direction:column;
     text-align:center;

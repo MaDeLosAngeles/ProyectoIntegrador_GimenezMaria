@@ -14,7 +14,7 @@ div {
         border-radius:100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top: 200px;
+        top: 650px;
     }
     }
 
@@ -25,7 +25,7 @@ div {
             border-radius:100%;
             box-shadow: 3px 3px 3px grey;
             left: 45%;
-            top: 200px;
+            top: 650px;
         }
         }
 
@@ -33,12 +33,11 @@ div {
 /*etiqueta nombre*/
 #nombre {
     font-weight: bold;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-left: 10px;
 }
 
-/**
-.img {
-    border-radius: 50px;
+#intro {
+    margin-top: 10%;
+    margin-right: 10px;
 }
-**/
