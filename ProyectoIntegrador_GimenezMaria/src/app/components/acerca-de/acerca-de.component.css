@@ -8,37 +8,40 @@ div {
 }
 
 /*Etilo de la foto de perfil*/
-@media (min-width: 576px){
+#fotodeperfil{
+    position: absolute;
+    width: 15%;
+    border-radius:100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 3%;
+    top:650px;
+}
+
+/*etiqueta nombre*/
+#nombre {
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 10px;
+}
+
+#intro {
+    margin-top: 2%;
+    margin-right: 10px;
+}
+
+/*Para la vista de celular*/
+@media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
         width: 15%;
         border-radius:100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 650px;
+        left: 43%;
+        top:980px;
+    }
+    #nombre {
+        font-weight: bold;
+        margin-top: 30%;
+        margin-left: 10px;
     }
     }
-
-    @media (max-width: 575px){
-        #fotodeperfil{
-            position: absolute;
-            width: 15%;
-            border-radius:100%;
-            box-shadow: 3px 3px 3px grey;
-            left: 45%;
-            top: 650px;
-        }
-        }
-
-
-/*etiqueta nombre*/
-#nombre {
-    font-weight: bold;
-    margin-top: 30%;
-    margin-left: 10px;
-}
-
-#intro {
-    margin-top: 10%;
-    margin-right: 10px;
-}
