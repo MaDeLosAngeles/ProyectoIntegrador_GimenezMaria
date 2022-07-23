@@ -2,3 +2,9 @@
     background-color:#EBB3F9;
     padding: 20px;
 }
+
+h4 {
+    display: inline;
+    text-align: center;
+    margin-bottom: 50px;
+}

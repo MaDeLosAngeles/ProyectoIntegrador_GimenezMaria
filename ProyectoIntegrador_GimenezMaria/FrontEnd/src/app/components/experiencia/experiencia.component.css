@@ -1,12 +1,18 @@
 .row{
-    padding: 20p;
+    padding: 20px;
 }
 
 div{
     background:#EBB3F9;
 }
 
-h1, h3{
+h4 {
     display: inline;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    }
+
+p {
+     margin-left: 70px;
 }
 
