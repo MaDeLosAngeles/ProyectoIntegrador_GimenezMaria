@@ -3,10 +3,9 @@
     display: flex;
 }
 div {
-    background-color: #EBB3F9;
+    background-color: rgb(80, 78, 78);
     text-align: center;
-    color: rgb(80, 78, 78);
-
+ 
 }
 
 /*Etilo de la foto de perfil*/
@@ -19,19 +18,30 @@ div {
     top:650px;
 }
 
+p {
+    color: rgb(245, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
 /*etiqueta nombre*/
 #nombre {
     font-weight: bold;
-    margin-top: 4%;
+    margin-top: 15%;
     margin-left: 10px;
-    color: rgb(80, 78, 78);
+    color:rgb(245, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 #intro {
     margin-top: 2%;
     margin-right: 10px;
-    color: rgb(80, 78, 78);
+    margin-top: 20px;
+    color: rgb(245, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
 
 }
 
@@ -49,7 +59,9 @@ div {
         font-weight: bold;
         margin-top: 30%;
         margin-left: 10px;
-        color: rgb(80, 78, 78);
+        color: rgb(245, 243, 243);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
-    }
+
+       }

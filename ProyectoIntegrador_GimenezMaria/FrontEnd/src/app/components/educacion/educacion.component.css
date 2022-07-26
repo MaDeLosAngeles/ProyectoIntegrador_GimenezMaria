@@ -1,18 +1,20 @@
 .row{
-    padding: 80px;
+    padding: 30px;
 }
 
 div{
-    background:#EBB3F9;
+    background: linear-gradient(to right, #fa379c, #f830aa, #f32cba, #ec2dca, #e132db);
    
 }
 
-h4{
+h2{
     display: inline;
     margin-bottom: 50px;
-    color: rgb(80, 78, 78);
+    color: rgb(245, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p {
-    color: rgb(80, 78, 78);
-}
+h4, p {
+     color: rgb(245, 243, 243);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }

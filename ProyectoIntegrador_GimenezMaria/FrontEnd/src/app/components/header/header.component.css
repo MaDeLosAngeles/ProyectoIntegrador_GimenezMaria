@@ -1,5 +1,5 @@
-div {
-    background-color: #EBB3F9;
+.row {
+    background-image: linear-gradient(to right, #fa379c, #f830aa, #f32cba, #ec2dca, #e132db);
     text-align: center;
 }
 

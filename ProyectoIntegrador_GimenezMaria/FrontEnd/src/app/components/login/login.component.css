@@ -1,4 +1,4 @@
 .gradient-custom {
         /* fallback for old browsers **/
-    background: #EBB3F9;
+    background: linear-gradient(to right, #fa379c, #f830aa, #f32cba, #ec2dca, #e132db);
 }
