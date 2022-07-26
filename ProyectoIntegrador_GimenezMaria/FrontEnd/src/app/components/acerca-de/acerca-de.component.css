@@ -5,6 +5,8 @@
 div {
     background-color: #EBB3F9;
     text-align: center;
+    color: rgb(80, 78, 78);
+
 }
 
 /*Etilo de la foto de perfil*/
@@ -22,11 +24,15 @@ div {
     font-weight: bold;
     margin-top: 4%;
     margin-left: 10px;
+    color: rgb(80, 78, 78);
+
 }
 
 #intro {
     margin-top: 2%;
     margin-right: 10px;
+    color: rgb(80, 78, 78);
+
 }
 
 /*Para la vista de celular*/
@@ -43,5 +49,7 @@ div {
         font-weight: bold;
         margin-top: 30%;
         margin-left: 10px;
+        color: rgb(80, 78, 78);
+
     }
     }

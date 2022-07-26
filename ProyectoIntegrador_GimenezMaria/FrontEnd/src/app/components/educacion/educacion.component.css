@@ -1,5 +1,5 @@
 .row{
-    padding: 20px;
+    padding: 80px;
 }
 
 div{
@@ -9,10 +9,10 @@ div{
 
 h4{
     display: inline;
-    margin-left: 130px;
     margin-bottom: 50px;
+    color: rgb(80, 78, 78);
 }
 
 p {
-    margin-left: 70px;
+    color: rgb(80, 78, 78);
 }

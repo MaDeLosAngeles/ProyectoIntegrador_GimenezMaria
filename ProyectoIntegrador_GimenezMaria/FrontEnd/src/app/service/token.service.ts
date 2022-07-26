@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { triggerAsyncId } from 'async_hooks';
+
 
 const TOKEN_KEY = 'AuthToken';
 const USERNAME_KEY = 'AuthUserName';
-const ATHORITIES_KEY = 'AuthAuthorities'
+const AUTHORITIES_KEY = 'AuthAuthorities';
 
 @Injectable({
   providedIn: 'root'
@@ -33,16 +33,16 @@ export class TokenService {
   }
 
   public setAuthorities(authorities: string[]):  void{
-    window.sessionStorage.removeItem(ATHORITIES_KEY);
-    window.sessionStorage.setItem(ATHORITIES_KEY, JSON.stringify(authorities));
+    window.sessionStorage.removeItem(AUTHORITIES_KEY);
+    window.sessionStorage.setItem(AUTHORITIES_KEY, JSON.stringify(authorities));
   }
 
   public getAuthorities(): string[]{
     this.roles = [];
-    if(sessionStorage.getItem(ATHORITIES_KEY)!){
-       JSON.parse(sessionStorage.getItem(ATHORITIES_KEY)!).forEach((authority:any) => {
-        this.roles.push(authority.authority);
-       });
+    if(sessionStorage.getItem(AUTHORITIES_KEY)){
+JSON.parse(sessionStorage.getItem(AUTHORITIES_KEY)!).forEach((authority:any) => {
+  this.roles.push(authority.authority);
+});
     }
     return this.roles;
   }
