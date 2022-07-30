@@ -3,7 +3,7 @@
     display: flex;
 }
 div {
-    background-color: rgb(80, 78, 78);
+    background-color: #C7F47D;
     text-align: center;
  
 }
@@ -19,7 +19,7 @@ div {
 }
 
 p {
-    color: rgb(245, 243, 243);
+    color: #545453;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -29,7 +29,7 @@ p {
     font-weight: bold;
     margin-top: 15%;
     margin-left: 10px;
-    color:rgb(245, 243, 243);
+    color: #545453;;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -38,22 +38,31 @@ p {
     margin-top: 2%;
     margin-right: 10px;
     margin-top: 20px;
-    color: rgb(245, 243, 243);
+    color: #545453;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    
-
 }
+
+   /*Para la vista media*/
+@media (max-width: 780px){
+    #fotodeperfil{
+        position: absolute;
+        width:15%;
+        border-radius:100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:350px;
+        }
+    }
 
 /*Para la vista de celular*/
 @media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
-        width: 15%;
+        width: 25%;
         border-radius:100%;
         box-shadow: 3px 3px 3px grey;
-        left: 43%;
-        top:980px;
+        left: 37%;
+        top:575px;
     }
     #nombre {
         font-weight: bold;

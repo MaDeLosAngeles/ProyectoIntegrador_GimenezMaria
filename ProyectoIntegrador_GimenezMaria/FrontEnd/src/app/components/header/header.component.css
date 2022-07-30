@@ -1,6 +1,5 @@
 .row {
-    background-image: linear-gradient(to right, #fa379c, #f830aa, #f32cba, #ec2dca, #e132db);
-    text-align: center;
+    background-color: #545453;
 }
 
 app-social {
