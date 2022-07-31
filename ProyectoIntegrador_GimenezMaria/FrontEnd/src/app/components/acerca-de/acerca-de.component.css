@@ -29,7 +29,7 @@ p {
     font-weight: bold;
     margin-top: 15%;
     margin-left: 10px;
-    color: #545453;;
+    color: #545453;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -50,7 +50,7 @@ p {
         border-radius:100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top:350px;
+        top: 350px;
         }
     }
 
@@ -62,13 +62,13 @@ p {
         border-radius:100%;
         box-shadow: 3px 3px 3px grey;
         left: 37%;
-        top:575px;
+        top:560px;
     }
     #nombre {
         font-weight: bold;
         margin-top: 30%;
         margin-left: 10px;
-        color: rgb(245, 243, 243);
+        color: #545453; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
