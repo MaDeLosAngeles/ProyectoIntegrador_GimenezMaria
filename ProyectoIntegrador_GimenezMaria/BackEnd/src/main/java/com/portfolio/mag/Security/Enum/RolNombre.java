@@ -4,10 +4,6 @@
  */
 package com.portfolio.mag.Security.Enum;
 
-/**
- *
- * @author Usuario
- */
 public enum RolNombre {
     ROLE_ADMIN, ROLE_USER
 }
