@@ -5,7 +5,7 @@
 div {
     background-color: #C7F47D;
     text-align: center;
- 
+
 }
 
 /*Etilo de la foto de perfil*/
@@ -64,14 +64,15 @@ p {
         left: 37%;
         top:560px;
     }
+
     #nombre {
         font-weight: bold;
         margin-top: 30%;
         margin-left: 10px;
         color: #545453; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     }
+}
 
   /*Para la vista de celular*/
 @media (max-width: 430px){
@@ -83,12 +84,12 @@ p {
         left: 37%;
         top:500px;
     }
+
     #nombre {
         font-weight: bold;
         margin-top: 30%;
         margin-left: 10px;
         color: #545453; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     }
-       }
+}
