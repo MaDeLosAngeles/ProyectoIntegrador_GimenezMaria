@@ -54,7 +54,7 @@ p {
         }
     }
 
-/*Para la vista de celular*/
+/*Para la vista pequeña*/
 @media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
@@ -63,6 +63,17 @@ p {
         box-shadow: 3px 3px 3px grey;
         left: 37%;
         top:560px;
+    }
+  
+  /*Para la vista de celular*/
+@media (max-width: 430px){
+    #fotodeperfil{
+        position: absolute;
+        width: 25%;
+        border-radius:100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 37%;
+        top:500px;
     }
     #nombre {
         font-weight: bold;
